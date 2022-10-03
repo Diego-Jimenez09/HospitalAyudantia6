@@ -24,4 +24,7 @@ public class Persona {
     public void setEdad(int edad) {
         this.edad = edad;
     }
+    public  String toString(){
+        return  nombre+ " " +edad;
+    }
 }
