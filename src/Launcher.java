@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 
 public class Launcher {
     public static void main(String[] args) {
@@ -10,7 +9,6 @@ public class Launcher {
         registro.agregarPaciente("Etesech",685);
         //registro.imprimirPacientes(registro.getPacientes());
         registro.buscarPaciente(registro.getPacientes());
-        //registro.mostrarMayor();
-
+        registro.mostrarMayor();
     }
 }

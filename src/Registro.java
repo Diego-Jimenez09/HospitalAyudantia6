@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Registro {
     ArrayList<Persona> pacientes = new ArrayList<>();
@@ -30,19 +29,12 @@ public class Registro {
             if(persona.getEdad()>=60){
                 mayores.add(persona);
             }
-
-        /*for(Persona personas:mayores){
-            System.out.println(mayores.toString());
-        }*/
         }
         System.out.println("Pacientes mayores a 60 años");
         System.out.println(mayores.toString());
-
     }
 
     public ArrayList<Persona> getPacientes() {
         return pacientes;
     }
-
-
 }
